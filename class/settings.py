@@ -25,7 +25,7 @@ SECRET_KEY = 'k6!s7+4a==-651h7am62r%j4v69oruef124e^@r370onq33$8s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','myrecording.herokuapp.com']
 
 
 # Application definition
