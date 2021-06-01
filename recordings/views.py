@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Record
-
+from django.http import HttpResponse
 # Create your views here.
 
 def getSubjectValues(subjectCode,query=''):
@@ -63,9 +63,5 @@ def digitalLogic(requests):
 	else:
 		values = getSubjectValues(subjectCode)
 	return render(requests,'subjects.html',values)
-
-
-
-
 
 
